@@ -35,6 +35,7 @@
             btnDashboard = new Button();
             lblTitle = new Label();
             Label1 = new Label();
+            panelContent = new Panel();
             pnlSidebar.SuspendLayout();
             SuspendLayout();
             // 
@@ -89,6 +90,7 @@
             btnDashboard.TabIndex = 1;
             btnDashboard.Text = "Dashboard";
             btnDashboard.UseVisualStyleBackColor = true;
+            btnDashboard.Click += btnDashboard_Click;
             // 
             // lblTitle
             // 
@@ -110,11 +112,20 @@
             Label1.Text = "Dashboard";
             Label1.Click += label1_Click_1;
             // 
+            // panelContent
+            // 
+            panelContent.Dock = DockStyle.Fill;
+            panelContent.Location = new Point(200, 0);
+            panelContent.Name = "panelContent";
+            panelContent.Size = new Size(771, 429);
+            panelContent.TabIndex = 2;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(971, 429);
+            Controls.Add(panelContent);
             Controls.Add(Label1);
             Controls.Add(pnlSidebar);
             Name = "MainForm";
@@ -134,5 +145,6 @@
         private Button btnCustomers;
         private Button btnCompanies;
         private Button btnDashboard;
+        private Panel panelContent;
     }
 }

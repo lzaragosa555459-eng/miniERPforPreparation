@@ -7,5 +7,11 @@
     <Compile Update="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Pages\CustomersPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Pages\DashboardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
