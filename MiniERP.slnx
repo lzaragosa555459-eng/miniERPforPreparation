@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="MiniERP.api/MiniERP.api.csproj" />
+  <Project Path="MiniERP.company/MiniERP.company.csproj" Id="882f8827-04c8-4bdc-b3e2-1a712ee9bb65" />
+  <Project Path="MiniERP.domain/MiniERP.domain.csproj" />
+  <Project Path="MiniERP.infrastructure/MiniERP.infrastructure.csproj" />
+  <Project Path="MiniERP/MiniERP.winforms.csproj" />
+</Solution>
